@@ -5,6 +5,7 @@ export async function main(ns) {
 	try {
 		ns.brutessh(target);
 		ns.ftpcrack(target);
+		ns.sqlinject(target);
 	} catch { }
 
 	try {
