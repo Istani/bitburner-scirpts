@@ -6,6 +6,8 @@ export async function main(ns) {
 		ns.brutessh(target);
 		ns.ftpcrack(target);
 		ns.sqlinject(target);
+		ns.httpworm(target);
+		ns.sqlinject(target);
 	} catch { }
 
 	try {

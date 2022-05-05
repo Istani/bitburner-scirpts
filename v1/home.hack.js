@@ -127,8 +127,10 @@ export async function main(ns) {
           }
 					await ns.sleep(100);
         }
-				ns.print(server.id);
-        target.displayWork();
+			ns.print(server.id);
+			if (typeof target.disableWork != "undefined") {
+        		target.displayWork();
+			}
 				await ns.sleep(100);
 			}
 			await ns.sleep(100);
